@@ -7,7 +7,7 @@ let playerSelection = buttons.forEach((button) => {
         playRound(button.id);
     });
 });
-
+let image = document.getElementById("image").src = "rps.png";
 
 // Computer randomly returns 'rock', 'paper' or 'scissors'.
 function computerPlay() {
